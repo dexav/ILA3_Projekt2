@@ -27,16 +27,20 @@ Wir arbeiten in Visual studio code mit der Programmiersprache Python.
 
 | US-№ | Verbindlichkeit | Typ          | Beschreibung                                                 |
 | ---- | --------------- | ------------ | ------------------------------------------------------------ |
-| 1    | Muss            | Funktional   | Als ein Benutzer möchte ich eine URL eingeben, damit ich überprüfen kann, ob sie sicher oder verdächtig ist. |
-| 2    | Muss            | Funktional   | Als ein Benutzer möchte ich eine klare Rückmeldung zur URL-Sicherheit erhalten, damit ich informiert entscheiden kann, ob ich den Link öffnen soll. |
+| 1    | Muss            | Funktional   | Als Benutzer möchte ich eine URL eingeben, damit ich überprüfen kann, ob sie sicher oder verdächtig ist. |
+| 2    | Muss            | Funktional   | Als Benutzer möchte ich eine klare Rückmeldung zur URL-Sicherheit erhalten, damit ich informiert entscheiden kann, ob ich den Link öffnen soll. |
 | 3    | Soll            | Funktional   | Als Entwickler möchte ich, dass das Modell typische Phishing-Muster erkennt, damit die Analyse präzise und zuverlässig ist. |
-| 4    | Soll            | Funktional   | Als Entwickler möchte ich das Modell regelmässig mit neuen URLs trainieren können, damit es an aktuelle Phishing-Techniken angepasst bleibt. |
-| 5    | Kann            | Funktional   | Als Benutzer möchte ich eine Liste der überprüften URLs sehen, damit ich meine bisherigen Überprüfungen nachvollziehen kann. |
-| 6    | Muss            | Qualität    | Als Entwickler möchte ich eine Merkmalsextraktion für die URL umsetzen, damit das Modell die URL korrekt analysieren kann. |
-| 7    | Soll            | Funktional   | Als Benutzer möchte ich schnell und einfach eine Rückmeldung zur URL-Sicherheit erhalten, damit ich die Website ohne Verzögerung nutzen kann. |
-| 8    | Kann            | Funktional   | Als Benutzer möchte ich eine Möglichkeit haben, die URL-Erkennungsregeln anzupassen, damit ich das Tool auf meine eigenen Sicherheitsbedürfnisse einstellen kann. |
-| 9    | Soll            | Qualität    | Als Entwickler möchte ich eine Schnittstelle zum Speichern und Laden des Modells, damit es ohne erneutes Training direkt nutzbar ist. |
-| 10   | Kann            | Funktional   | Als Benutzer möchte ich eine Warnmeldung erhalten, wenn eine verdächtige URL erkannt wird, damit ich sofort alarmiert bin. |
+| 4    | Soll            | Funktional   | Als Entwickler möchte ich das Modell regelmäßig mit neuen URLs trainieren können, damit es an aktuelle Phishing-Techniken angepasst bleibt. |
+| 5    | Kann            | Funktional   | Als Benutzer möchte ich eine Liste der überprüften URLs sehen, damit ich meine bisherigen Überprüfungen in der Konsole nachvollziehen kann. |
+| 6    | Muss            | Qualität     | Als Entwickler möchte ich eine Merkmalsextraktion für die URL umsetzen, damit das Modell die URL korrekt analysieren kann. |
+| 7    | Soll            | Funktional   | Als Benutzer möchte ich schnell und einfach eine Rückmeldung zur URL-Sicherheit erhalten, damit ich die URL direkt in der Konsole auswerten kann. |
+| 8    | Kann            | Funktional   | Als Benutzer möchte ich eine Warnmeldung in der Konsole erhalten, wenn eine verdächtige URL erkannt wird, damit ich sofort alarmiert bin. |
+| 9    | Soll            | Qualität     | Als Entwickler möchte ich eine Schnittstelle zum Speichern und Laden des Modells, damit es ohne erneutes Training direkt nutzbar ist. |
+| 10   | Kann            | Funktional   | Als Benutzer möchte ich, dass das Tool später eventuell als Google Pop-up verfügbar ist, um die Nutzung zu erweitern. |
+| 11   | Muss            | Funktional   | Als Entwickler möchte ich ein Programm zur Generierung einer Phishing-Mail erstellen, damit ich die Sicherheit des Tools realistisch testen kann. |
+| 12   | Muss            | Funktional   | Als Entwickler möchte ich ein Skript zum automatisierten Versenden von Phishing-Mails an eine Testperson implementieren, damit ich das Tool in einer realistischen Umgebung testen kann. |
+| 13   | Soll            | Qualität     | Als Entwickler möchte ich sicherstellen, dass die Phishing-Mail realistisch aussieht, aber keine echten Personen gefährdet, damit die Tests sicher durchgeführt werden können. |
+
 
 
 
