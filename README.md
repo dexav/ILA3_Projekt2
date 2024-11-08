@@ -1,13 +1,10 @@
 # Projekt-Dokumentation
 
-In diesem Projekt entwickeln wir ein Tool, das Nutzer vor potenziellen Phishing-Links schützt, indem es verdächtige URLs automatisch erkennt. Dazu trainieren wir ein Machine-Learning-Modell mit Daten sicherer und unsicherer Links, sodass das Modell typische Phishing-Muster lernt. Nutzer können eine URL eingeben und erhalten eine schnelle Rückmeldung, ob diese sicher oder verdächtig ist. Das Tool analysiert die URL anhand von Merkmalen wie speziellen Zeichen und bestimmten Schlüsselwörtern. Durch regelmässiges Training bleibt das Modell aktuell und anpassungsfähig, sodass es effektiv auf neue Phishing-Bedrohungen reagieren kann.
-Wir arbeiten in Visual studio code mit der Programmiersprache Python.
-
-✍️ Ihr Gruppenname und Ihre Nachnamen
+Gruppe: Filip Mitrovic und Xavier Nursiwat
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+|       | 0.0.1   | Wir haben den Projektantrag erstellt, Github Repository erstellt, Projektdokumentation begonnen, und Visual studio code eingerichtet                                                             |
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
@@ -15,16 +12,29 @@ Wir arbeiten in Visual studio code mit der Programmiersprache Python.
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Physhing Link Erkennungs Programm
 
-✍️ Erklären Sie genauer in 50 bis 100 Wörtern, was genau Sie in diesem Projekt erreichen möchten, und was Sie dabei zu lernen hoffen.
+In diesem Projekt entwickeln wir ein Tool, das Nutzer vor potenziellen Phishing-Links schützt, indem es verdächtige URLs automatisch erkennt. Dazu trainieren wir ein Machine-Learning-Modell mit Daten sicherer und unsicherer Links, sodass das Modell typische Phishing-Muster lernt. Nutzer können eine URL eingeben und erhalten eine schnelle Rückmeldung, ob diese sicher oder verdächtig ist. Das Tool analysiert die URL anhand von Merkmalen wie speziellen Zeichen und bestimmten Schlüsselwörtern. Durch regelmässiges Training bleibt das Modell aktuell und anpassungsfähig, sodass es effektiv auf neue Phishing-Bedrohungen reagieren kann.
+Wir arbeiten in Visual studio code mit der Programmiersprache Python.
 
 ### 1.2 User Stories
 
-| US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
-| ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+
+
+| US-№ | Verbindlichkeit | Typ          | Beschreibung                                                 |
+| ---- | --------------- | ------------ | ------------------------------------------------------------ |
+| 1    | Muss            | Funktional   | Als ein Benutzer möchte ich eine URL eingeben, damit ich überprüfen kann, ob sie sicher oder verdächtig ist. |
+| 2    | Muss            | Funktional   | Als ein Benutzer möchte ich eine klare Rückmeldung zur URL-Sicherheit erhalten, damit ich informiert entscheiden kann, ob ich den Link öffnen soll. |
+| 3    | Soll            | Funktional   | Als Entwickler möchte ich, dass das Modell typische Phishing-Muster erkennt, damit die Analyse präzise und zuverlässig ist. |
+| 4    | Soll            | Funktional   | Als Entwickler möchte ich das Modell regelmässig mit neuen URLs trainieren können, damit es an aktuelle Phishing-Techniken angepasst bleibt. |
+| 5    | Kann            | Funktional   | Als Benutzer möchte ich eine Liste der überprüften URLs sehen, damit ich meine bisherigen Überprüfungen nachvollziehen kann. |
+| 6    | Muss            | Qualität    | Als Entwickler möchte ich eine Merkmalsextraktion für die URL umsetzen, damit das Modell die URL korrekt analysieren kann. |
+| 7    | Soll            | Funktional   | Als Benutzer möchte ich schnell und einfach eine Rückmeldung zur URL-Sicherheit erhalten, damit ich die Website ohne Verzögerung nutzen kann. |
+| 8    | Kann            | Funktional   | Als Benutzer möchte ich eine Möglichkeit haben, die URL-Erkennungsregeln anzupassen, damit ich das Tool auf meine eigenen Sicherheitsbedürfnisse einstellen kann. |
+| 9    | Soll            | Qualität    | Als Entwickler möchte ich eine Schnittstelle zum Speichern und Laden des Modells, damit es ohne erneutes Training direkt nutzbar ist. |
+| 10   | Kann            | Funktional   | Als Benutzer möchte ich eine Warnmeldung erhalten, wenn eine verdächtige URL erkannt wird, damit ich sofort alarmiert bin. |
+
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
