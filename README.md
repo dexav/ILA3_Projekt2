@@ -15,7 +15,10 @@ Gruppe: Filip Mitrovic und Xavier Nursiwat
 Physhing Link Erkennungs Programm
 
 In diesem Projekt entwickeln wir ein Tool, das Nutzer vor potenziellen Phishing-Links schützt, indem es verdächtige URLs automatisch erkennt. Dazu trainieren wir ein Machine-Learning-Modell mit Daten sicherer und unsicherer Links, sodass das Modell typische Phishing-Muster lernt. Nutzer können eine URL eingeben und erhalten eine schnelle Rückmeldung, ob diese sicher oder verdächtig ist. Das Tool analysiert die URL anhand von Merkmalen wie speziellen Zeichen und bestimmten Schlüsselwörtern. Durch regelmässiges Training bleibt das Modell aktuell und anpassungsfähig, sodass es effektiv auf neue Phishing-Bedrohungen reagieren kann.
-Zudem programmieren ein Programm, welches eine Phishing-Mail generiert und später mir einem Skript per Email an eine Person gesendet wird.
+Zudem programmieren ein Programm, welches eine Phishing-Mail generiert und später mir einem Skript per Email an eine Person gesendet wird. 
+
+**🚨 WARNUNG:** Diese Mail wird nur mir oder an Xavier Nursiwat versendet, da wir es als Übung benutzen und niemanden in Gefahr bringen möchten. 🚨
+
 Wir arbeiten in Visual studio code mit der Programmiersprache Python.
 
 ### 1.2 User Stories
