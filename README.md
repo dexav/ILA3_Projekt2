@@ -56,8 +56,8 @@ Wir arbeiten in Visual studio code mit der Programmiersprache Python.
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
+![MachineLearningPAP](https://github.com/user-attachments/assets/1b61e2f1-1f1e-4fd5-89ac-0a93717e6c77)
 
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
 
 ## 2 Planen
 
