@@ -2,6 +2,8 @@
 
 Gruppe: Filip Mitrovic und Xavier Nursiwat
 
+um projekt auszuführen muss man folgendes im terminal VSC eingeben: python app.py
+
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |       | 0.0.1   | Wir haben den Projektantrag erstellt, Github Repository erstellt, Projektdokumentation begonnen, und Visual studio code eingerichtet                                                             |
