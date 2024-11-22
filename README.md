@@ -50,10 +50,20 @@ Wir arbeiten in Visual studio code mit der Programmiersprache Python.
 
 ### 1.3 Testfälle
 
-| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
-| ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| TC-№  | Ausgangslage                                       | Eingabe                                 | Erwartete Ausgabe                                                   |
+|-------|----------------------------------------------------|-----------------------------------------|----------------------------------------------------------------------|
+| 1.1   | Benutzer startet das Tool                         | URL: `http://example.com`               | Rückmeldung: "Sicher" oder "Verdächtig"                             |
+| 2.1   | URL wurde eingegeben                              | URL: `http://phishing-abc.com`          | Rückmeldung: "Verdächtig"                                           |
+| 3.1   | Modell wurde initial trainiert                    | Neue URL-Datenbank                      | Erkennung neuer Phishing-Muster in Tests                            |
+| 4.1   | Training wird regelmäßig ausgeführt               | Neue Daten zum Training hinzugefügt     | Verbesserte Genauigkeit der URL-Einschätzung                       |
+| 5.1   | Mehrere URLs wurden überprüft                     | Keine neue Eingabe                      | Ausgabe: Liste der letzten 5 überprüften URLs mit Status            |
+| 6.1   | Eine verdächtige URL wird analysiert              | URL: `http://ph1shing.xyz?data=abc`     | Merkmale wie ungewöhnliche Zeichen oder Subdomains werden erkannt   |
+| 7.1   | URL wird überprüft                                | URL: `http://safe.com`                  | Schnelle Rückmeldung innerhalb von 1 Sekunde                       |
+| 8.1   | Verdächtige URL eingegeben                        | URL: `http://fraudulent-site.com`       | Warnmeldung in Konsole: "ACHTUNG: URL könnte Phishing sein!"        |
+| 9.1   | Modell ist gespeichert                            | Befehl: `python app.py`                 | Modell wird geladen, ohne dass ein erneutes Training notwendig ist |
+| 11.1  | Programm generiert Phishing-Mail                 | Beispieltext für Phishing-Mail          | Mail enthält realistisch wirkenden Inhalt                          |
+| 12.1  | Testperson ist definiert                          | E-Mail-Adresse: `testperson@example.com`| Mail wird an Testperson gesendet                                   |
+| 13.1  | Phishing-Mail wurde generiert                    | Überprüfung des Inhalts                 | Mail enthält keine persönlichen Informationen oder Risiken          |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
@@ -63,12 +73,20 @@ Wir arbeiten in Visual studio code mit der Programmiersprache Python.
 
 ## 2 Planen
 
-| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
-| ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| AP-№  | Frist     | Zuständig        | Beschreibung                                                 | geplante Zeit |
+|-------|-----------|------------------|-------------------------------------------------------------|---------------|
+| 1.A   |    | Filip            | Implementierung der URL-Eingabe                              | 45 min        |
+| 1.B   |    | Xavier           | Rückmeldung basierend auf URL-Analyse                        | 45 min        |
+| 3.A   |    | Filip            | Training des Modells mit Phishing- und sicheren URLs         | 45 min        |
+| 4.A   |   | Xavier           | Integration eines Skripts für regelmäßiges Training          | 45 min        |
+| 6.A   || Beide            | Merkmalsextraktion von URLs implementieren                   | 90 min        |
+| 8.A   |   | Filip            | Warnmeldung für verdächtige URLs                             | 45 min        |
+| 9.A   |    | Xavier           | Speichern und Laden des Modells                              | 45 min        |
+| 11.A  |    | Filip            | Erstellen eines Programms zur Phishing-Mail-Generierung      | 45 min        |
+| 12.A  |   | Xavier           | Skript zum automatisierten Senden von Phishing-Mails         | 45 min        |
+| 13.A  |   | Beide            | Sicherstellen der Sicherheit und Testen der Phishing-Mail    | 45 min        |
 
-Total: 
+**Total geplante Zeit:** 540 Minuten (ca. 9 Stunden)
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
