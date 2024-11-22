@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Checker</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Phishing Checker</h1>
+        <form method="POST">
+            <label for="analysis_type">Wählen Sie den Analyse-Typ:</label>
+            <select id="analysis_type" name="analysis_type">
+                <option value="url">URL analysieren</option>
+                <option value="email">E-Mail analysieren</option>
+            </select>
+            <textarea name="input_text" placeholder="Geben Sie hier Ihre URL oder E-Mail ein..." required></textarea>
+            <button type="submit">Analysieren</button>
+        </form>
+        {% if result %}
+        <div class="result">
+            {% if analysis_type == "url" %}
+            <p>Die URL ist: <strong>{{ result }}</strong></p>
+            {% elif analysis_type == "email" %}
+            <p>Die E-Mail wird als: <strong>{{ result['is_phishing'] }}</strong> eingestuft.</p>
+            <p>Gefundene Schlüsselwörter: {{ result['details']['phishing_keywords'] }}</p>
+            <p>Gefundene Links: {{ result['details']['suspicious_links'] }}</p>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
