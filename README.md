@@ -7,8 +7,13 @@ um projekt auszuführen muss man folgendes im terminal VSC eingeben: python app.
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |       | 0.0.1   | Wir haben den Projektantrag erstellt, Github Repository erstellt, Projektdokumentation begonnen, und Visual studio code eingerichtet                                                             |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|       | 0.0.2  | Wir haben uns über die Basics von Cyber Security informiert und Filip mitrovic hat mit seinem Online Kurs begonnen.                                                             |
+|       | 0.0.3   | Filip Mitrovic hat bereits 3 Tests abgeschlossen und wir haben an der Planung weitergearbeitet. Bei der Planung haben wir uns spontan entschieden mit Machine Learning zu arbeiten in Python.                                                             |
+|       | 1.0.0   |  Wir haben mit dem Programmieren angefangen und konnten VSC einrichten. Wir konnten mit Matching Patterns schonmal eine einfache erkennung für phishing links erstellen, was aber nur sehr einfache Links erkennen würde.                                                          |
+|       | 1.0.1   |                            |
+|       | 1.0.1   |                            |
+|       | 1.0.1   |                            |
+|       | 1.0.1   |                            |
 
 ## 1 Informieren
 
@@ -103,12 +108,25 @@ Wir arbeiten in Visual studio code mit der Programmiersprache Python.
 
 ## 5 Kontrollieren
 
-| TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+
+| TC-№  | Datum       | Resultat                | Tester  |
+|-------|-------------|-------------------------|---------|
+| 1.1   | 2024-12-06  | Erfolgreich: Rückmeldung korrekt ("Sicher") | Xavier  |
+| 2.1   | 2024-12-06  | Erfolgreich: Rückmeldung korrekt ("Verdächtig") | Filip   |
+| 3.1   | 2024-12-06  | Erfolgreich: Neue Muster wurden erkannt | Xavier  |
+| 4.1   | 2024-12-06  | Erfolgreich: Genauigkeit verbessert | Filip   |
+| 5.1   | 2024-12-06  | Erfolgreich: Liste der letzten 5 URLs korrekt angezeigt | Xavier  |
+| 6.1   | 2024-12-06  | Erfolgreich: Ungewöhnliche Merkmale korrekt erkannt | Filip   |
+| 7.1   | 2024-12-06  | Erfolgreich: Rückmeldung innerhalb von 1 Sekunde | Xavier  |
+| 8.1   | 2024-12-06  | Erfolgreich: Warnmeldung korrekt ausgegeben | Filip   |
+| 9.1   | 2024-12-06  | Erfolgreich: Modell wurde korrekt geladen | Xavier  |
+| 11.1  | 2024-12-06  | Erfolgreich: Phishing-Mail realistischer Inhalt | Filip   |
+| 12.1  | 2024-12-06  | Erfolgreich: Mail an Testperson gesendet | Xavier  |
+| 13.1  | 2024-12-06  | Erfolgreich: Keine persönlichen Informationen enthalten | Filip   |
+
+### Fazit:
+Alle Testfälle wurden erfolgreich ausgeführt, und das Tool hat in jeder getesteten Situation wie erwartet funktioniert. Die Testergebnisse zeigen, dass das System stabil ist und sowohl URLs zuverlässig analysiert als auch Phishing-Mails korrekt generiert. Besonders hervorzuheben sind die schnelle Verarbeitung der URLs und die Genauigkeit des Modells. Weitere Tests könnten sich darauf konzentrieren, wie das Tool mit einer größeren Anzahl an Daten umgeht und ob es unter Last stabil bleibt.
 
 ## 6 Auswerten
 
