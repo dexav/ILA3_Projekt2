@@ -99,12 +99,21 @@ Wir arbeiten in Visual studio code mit der Programmiersprache Python.
 
 ## 4 Realisieren
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| AP-№  | Datum  | Zuständig | geplante Zeit | tatsächliche Zeit |
+|-------|--------|-----------|---------------|-------------------|
+| 1.A   |        | Filip     | 45 min        | 50 min                  |
+| 1.B   |        | Xavier    | 45 min        |   45 min                |
+| 3.A   |        | Filip     | 45 min        |  45 min                 |
+| 4.A   |        | Xavier    | 45 min        |  45 min                 |
+| 6.A   |        | Beide     | 90 min        |  100 min                 |
+| 8.A   |        | Filip     | 45 min        |   45 min                |
+| 9.A   |        | Xavier    | 45 min        |  45 min                 |
+| 11.A  |        | Filip     | 45 min        |     50 min              |
+| 12.A  |        | Xavier    | 45 min        |    50 min                  |
+| 13.A  |        | Beide     | 45 min        |   50 min                   |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+
+
 
 ## 5 Kontrollieren
 
