@@ -78,18 +78,19 @@ Wir arbeiten in Visual studio code mit der Programmiersprache Python.
 
 | AP-№  | Frist     | Zuständig        | Beschreibung                                                 | geplante Zeit |
 |-------|-----------|------------------|-------------------------------------------------------------|---------------|
-| 1.A   |15.11.2024    | Filip            | Implementierung der URL-Eingabe                              | 45 min        |
-| 1.B   |15.11.2024    | Xavier           | Rückmeldung basierend auf URL-Analyse                        | 45 min        |
-| 2.A   |22.11.2024    | Filip            | Training des Modells mit Phishing- und sicheren URLs         | 45 min        |
-| 3.A   |22.11.2024   | Xavier           | Integration eines Skripts für regelmäßiges Training          | 45 min        |
-| 4.A   | 22.11.2024   | Beide            | Merkmalsextraktion von URLs implementieren                   | 90 min        |
-| 5.A   |29.11.2024   | Filip            | Warnmeldung für verdächtige URLs                             | 45 min        |
-| 6.A   |29.11.2024    | Xavier           | Speichern und Laden des Modells                              | 45 min        |
-| 7.A   |29.11.2024    | Filip            | Erstellen eines Programms zur Phishing-Mail-Generierung      | 45 min        |
-| 8.A  |29.11.2024   | Xavier           | Skript zum Senden von Phishing-Mails         | 70 min        |
-| 9.A  |06.12.2024   | Beide            | Sicherstellen der Sicherheit und Testen der Phishing-Mail    | 45 min        |
-| 10.A  |06.12.2024   | Beide            | Simple Webseite erstellen für das Phishinglinks erkennen | 90 min        |
-| 11.A  |13.12.2024   | Beide            | Webseite mit dem Python Prgramm verbinden.    | 45 min        |
+| 1.A |15.11.2024    | Filip            | Implementierung der URL-Eingabe                              | 45 min        |
+| 1.B |15.11.2024    | Xavier           | Rückmeldung basierend auf URL-Analyse                        | 45 min        |
+| 2.A |22.11.2024    | Filip            | Training des Modells mit Phishing- und sicheren URLs         | 45 min        |
+| 3.A |22.11.2024   | Xavier           | Integration eines Skripts für regelmäßiges Training          | 45 min        |
+| 4.A | 22.11.2024   | Beide            | Merkmalsextraktion von URLs implementieren                   | 90 min        |
+| 5.A |29.11.2024   | Filip            | Warnmeldung für verdächtige URLs                             | 45 min        |
+| 6.A |29.11.2024    | Xavier           | Speichern und Laden des Modells                              | 45 min        |
+| 7.A |29.11.2024    | Filip            | Erstellen eines Programms zur Phishing-Mail-Generierung      | 45 min        |
+| 8.A |29.11.2024   | Xavier           | Skript zum Senden von Phishing-Mails         | 70 min        |
+| 9.A |06.12.2024   | Beide            | Sicherstellen der Sicherheit und Testen der Phishing-Mail    | 45 min        |
+| 10.A|06.12.2024   | Beide            | Simple Webseite erstellen für das Phishinglinks erkennen | 90 min        |
+| 11.A|13.12.2024   | Beide            | Webseite mit dem Python Prgramm verbinden.    | 45 min        |
+
 **Total geplante Zeit:** 540 Minuten (ca. 9 Stunden)
 
 
