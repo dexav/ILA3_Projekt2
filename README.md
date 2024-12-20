@@ -2,18 +2,18 @@
 
 Gruppe: Filip Mitrovic und Xavier Nursiwat
 
-um projekt auszuführen muss man folgendes im terminal VSC eingeben: python app.py
+**Um die Webseite auszuführen muss man folgendes im terminal VSC eingeben: python app.py**
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | Wir haben den Projektantrag erstellt, Github Repository erstellt, Projektdokumentation begonnen, und Visual studio code eingerichtet                                                             |
-|       | 0.0.2  | Wir haben uns über die Basics von Cyber Security informiert und Filip mitrovic hat mit seinem Online Kurs begonnen.                                                             |
-|       | 0.0.3   | Filip Mitrovic hat bereits 3 Tests abgeschlossen und wir haben an der Planung weitergearbeitet. Bei der Planung haben wir uns spontan entschieden mit Machine Learning zu arbeiten in Python.                                                             |
-|       | 1.0.0   |  Wir haben mit dem Programmieren angefangen und konnten VSC einrichten. Wir konnten mit Matching Patterns schonmal eine einfache erkennung für phishing links erstellen, was aber nur sehr einfache Links erkennen würde.                                                          |
-|       | 1.0.1   |                            |
-|       | 1.0.1   |                            |
-|       | 1.0.1   |                            |
-|       | 1.0.1   |                            |
+| 8.11.2024       | 0.0.1   | Wir haben den Projektantrag erstellt, Github Repository erstellt, Projektdokumentation begonnen, und Visual studio code eingerichtet.  Filip Mitrovic hat bereits 3 Tests abgeschlossen und wir haben an der Planung weitergearbeitet. Wir haben uns über die Basics von Cyber Security informiert und Filip mitrovic hat mit seinem Online Kurs begonnen. |                                                             
+| 15.11.2024      | 0.0.2  |Wir haben mit der Implementierung angefangen. |
+| 22.11.2024     | 0.0.3   | Wir haben an der Implementierung wetier gearbeitet.           |
+| 29.11.2024      | 0.0.4  | Wir haben an der Implementierung wetier gearbeitet.       |
+|  06.12.2024       | 0.0.5   |  Wir haben an der Implementierung wetier gearbeitet. Dazu haben wir uns entschieden zum Programm eine Webseite zu bauen. Wir haben auch noch getestet.                                |
+| 13.12.2024       | 1.0.0  | Webseite Fertiggestellt und ist funktionstüchtig|
+| 20.12.2024       | 1.0.1  | Endspurt mit der Dokumentation                          |
+
 
 ## 1 Informieren
 
@@ -140,6 +140,5 @@ Wir haben uns entschieden zu unserem Python Programm eine Webseite zu erstellen,
 ### Fazit:
 Alle Testfälle wurden erfolgreich ausgeführt, und das Tool hat in jeder getesteten Situation wie erwartet funktioniert. Die Testergebnisse zeigen, dass das System stabil ist und sowohl URLs zuverlässig analysiert als auch Phishing-Mails korrekt generiert. Besonders hervorzuheben sind die schnelle Verarbeitung der URLs und die Genauigkeit des Modells. Weitere Tests könnten sich darauf konzentrieren, wie das Tool mit einer größeren Anzahl an Daten umgeht und ob es unter Last stabil bleibt.
 
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+## 6 Auswerten 
+Mahara Portfolio
