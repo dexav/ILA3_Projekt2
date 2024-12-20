@@ -45,7 +45,7 @@ Wir arbeiten in Visual studio code mit der Programmiersprache Python.
 | 9    | Soll            | Qualität     | Als Entwickler möchte ich eine Schnittstelle zum Speichern und Laden des Modells, damit es ohne erneutes Training direkt nutzbar ist. |
 | 10   | Kann            | Funktional   | Als Benutzer möchte ich, dass das Tool später eventuell als Google Pop-up verfügbar ist, um die Nutzung zu erweitern. |
 | 11   | Muss            | Funktional   | Als Entwickler möchte ich ein Programm zur Generierung einer Phishing-Mail erstellen, damit ich die Sicherheit des Tools realistisch testen kann. |
-| 12   | Muss            | Funktional   | Als Entwickler möchte ich ein Skript zum automatisierten Versenden von Phishing-Mails an eine Testperson implementieren, damit ich das Tool in einer realistischen Umgebung testen kann. |
+| 12   | Muss            | Funktional   | Als Entwickler möchte ich ein Skript zum  Versenden von Phishing-Mails an eine Testperson implementieren, damit ich das Tool in einer realistischen Umgebung testen kann. |
 | 13   | Soll            | Qualität     | Als Entwickler möchte ich sicherstellen, dass die Phishing-Mail realistisch aussieht, aber keine echten Personen gefährdet, damit die Tests sicher durchgeführt werden können. |
 
 
@@ -78,39 +78,42 @@ Wir arbeiten in Visual studio code mit der Programmiersprache Python.
 
 | AP-№  | Frist     | Zuständig        | Beschreibung                                                 | geplante Zeit |
 |-------|-----------|------------------|-------------------------------------------------------------|---------------|
-| 1.A   |    | Filip            | Implementierung der URL-Eingabe                              | 45 min        |
-| 1.B   |    | Xavier           | Rückmeldung basierend auf URL-Analyse                        | 45 min        |
-| 3.A   |    | Filip            | Training des Modells mit Phishing- und sicheren URLs         | 45 min        |
-| 4.A   |   | Xavier           | Integration eines Skripts für regelmäßiges Training          | 45 min        |
-| 6.A   || Beide            | Merkmalsextraktion von URLs implementieren                   | 90 min        |
-| 8.A   |   | Filip            | Warnmeldung für verdächtige URLs                             | 45 min        |
-| 9.A   |    | Xavier           | Speichern und Laden des Modells                              | 45 min        |
-| 11.A  |    | Filip            | Erstellen eines Programms zur Phishing-Mail-Generierung      | 45 min        |
-| 12.A  |   | Xavier           | Skript zum automatisierten Senden von Phishing-Mails         | 45 min        |
-| 13.A  |   | Beide            | Sicherstellen der Sicherheit und Testen der Phishing-Mail    | 45 min        |
+| 1.A |15.11.2024    | Filip            | Implementierung der URL-Eingabe                              | 45 min        |
+| 1.B |15.11.2024    | Xavier           | Rückmeldung basierend auf URL-Analyse                        | 45 min        |
+| 2.A |22.11.2024    | Filip            | Training des Modells mit Phishing- und sicheren URLs         | 45 min        |
+| 3.A |22.11.2024   | Xavier           | Integration eines Skripts für regelmäßiges Training          | 45 min        |
+| 4.A | 22.11.2024   | Beide            | Merkmalsextraktion von URLs implementieren                   | 90 min        |
+| 5.A |29.11.2024   | Filip            | Warnmeldung für verdächtige URLs                             | 45 min        |
+| 6.A |29.11.2024    | Xavier           | Speichern und Laden des Modells                              | 45 min        |
+| 7.A |29.11.2024    | Filip            | Erstellen eines Programms zur Phishing-Mail-Generierung      | 45 min        |
+| 8.A |29.11.2024   | Xavier           | Skript zum Senden von Phishing-Mails         | 70 min        |
+| 9.A |06.12.2024   | Beide            | Sicherstellen der Sicherheit und Testen der Phishing-Mail    | 45 min        |
+| 10.A|06.12.2024   | Beide            | Simple Webseite erstellen für das Phishinglinks erkennen | 90 min        |
+| 11.A|13.12.2024   | Beide            | Webseite mit dem Python Prgramm verbinden.    | 45 min        |
 
 **Total geplante Zeit:** 540 Minuten (ca. 9 Stunden)
 
 
 
 ## 3 Entscheiden
-
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Wir haben uns entschieden zu unserem Python Programm eine Webseite zu erstellen, damit es einfacher ist zu bedienen.
 
 ## 4 Realisieren
 
 | AP-№  | Datum  | Zuständig | geplante Zeit | tatsächliche Zeit |
 |-------|--------|-----------|---------------|-------------------|
-| 1.A   |        | Filip     | 45 min        | 50 min                  |
-| 1.B   |        | Xavier    | 45 min        |   45 min                |
-| 3.A   |        | Filip     | 45 min        |  45 min                 |
-| 4.A   |        | Xavier    | 45 min        |  45 min                 |
-| 6.A   |        | Beide     | 90 min        |  100 min                 |
-| 8.A   |        | Filip     | 45 min        |   45 min                |
-| 9.A   |        | Xavier    | 45 min        |  45 min                 |
-| 11.A  |        | Filip     | 45 min        |     50 min              |
-| 12.A  |        | Xavier    | 45 min        |    50 min                  |
-| 13.A  |        | Beide     | 45 min        |   50 min                   |
+| 1.A   |15.11.2024        | Filip     | 45 min        | 50 min                  |
+| 1.B   |   15.11.2024     | Xavier    | 45 min        |   45 min                |
+| 2.A   | 22.11.2024      | Filip     | 45 min        |  45 min                 |
+| 3.A   |22.11.2024        | Xavier    | 45 min        |  45 min                 |
+| 4.A   |22.11.2024        | Beide     | 90 min        |  100 min                 |
+| 5.A   |29.11.2024         | Filip     | 45 min        |   45 min                |
+| 6.A   |29.11.2024         | Xavier    | 45 min        |  45 min                 |
+| 7.A  | 29.11.2024        | Filip     | 45 min        |     50 min              |
+| 8.A  | 29.11.2024        | Xavier    | 70 min        |    90 min                  |
+| 9.A  |06.12.2024          | Beide     | 45 min        |   50 min                   |
+| 10.A  | 06.12.2024         | Beide     | 90 min        |   90 min                   |
+| 11.A  |13.12.2024        | Beide     | 45 min        |   50 min                   |
 
 
 
@@ -121,18 +124,18 @@ Wir arbeiten in Visual studio code mit der Programmiersprache Python.
 
 | TC-№  | Datum       | Resultat                | Tester  |
 |-------|-------------|-------------------------|---------|
-| 1.1   | 2024-12-06  | Erfolgreich: Rückmeldung korrekt ("Sicher") | Xavier  |
-| 2.1   | 2024-12-06  | Erfolgreich: Rückmeldung korrekt ("Verdächtig") | Filip   |
-| 3.1   | 2024-12-06  | Erfolgreich: Neue Muster wurden erkannt | Xavier  |
-| 4.1   | 2024-12-06  | Erfolgreich: Genauigkeit verbessert | Filip   |
-| 5.1   | 2024-12-06  | Erfolgreich: Liste der letzten 5 URLs korrekt angezeigt | Xavier  |
-| 6.1   | 2024-12-06  | Erfolgreich: Ungewöhnliche Merkmale korrekt erkannt | Filip   |
-| 7.1   | 2024-12-06  | Erfolgreich: Rückmeldung innerhalb von 1 Sekunde | Xavier  |
-| 8.1   | 2024-12-06  | Erfolgreich: Warnmeldung korrekt ausgegeben | Filip   |
-| 9.1   | 2024-12-06  | Erfolgreich: Modell wurde korrekt geladen | Xavier  |
-| 11.1  | 2024-12-06  | Erfolgreich: Phishing-Mail realistischer Inhalt | Filip   |
-| 12.1  | 2024-12-06  | Erfolgreich: Mail an Testperson gesendet | Xavier  |
-| 13.1  | 2024-12-06  | Erfolgreich: Keine persönlichen Informationen enthalten | Filip   |
+| 1.1   | 2024.12.06  | Erfolgreich: Rückmeldung korrekt ("Sicher") | Xavier  |
+| 2.1   | 2024.12.06  | Erfolgreich: Rückmeldung korrekt ("Verdächtig") | Filip   |
+| 3.1   | 2024.12.06  | Erfolgreich: Neue Muster wurden erkannt | Xavier  |
+| 4.1   | 2024.12.06  | Erfolgreich: Genauigkeit verbessert | Filip   |
+| 5.1   | 2024.12.06  | Erfolgreich: Liste der letzten 5 URLs korrekt angezeigt | Xavier  |
+| 6.1   | 2024.12.06  | Erfolgreich: Ungewöhnliche Merkmale korrekt erkannt | Filip   |
+| 7.1   | 2024.12.06  | Erfolgreich: Rückmeldung innerhalb von 1 Sekunde | Xavier  |
+| 8.1   | 2024.12.06  | Erfolgreich: Warnmeldung korrekt ausgegeben | Filip   |
+| 9.1   | 2024.12.06  | Erfolgreich: Modell wurde korrekt geladen | Xavier  |
+| 11.1  | 2024.12.06  | Erfolgreich: Phishing-Mail realistischer Inhalt | Filip   |
+| 12.1  | 2024.12.06  | Erfolgreich: Mail an Testperson gesendet | Xavier  |
+| 13.1  | 2024.12.06  | Erfolgreich: Keine persönlichen Informationen enthalten | Filip   |
 
 ### Fazit:
 Alle Testfälle wurden erfolgreich ausgeführt, und das Tool hat in jeder getesteten Situation wie erwartet funktioniert. Die Testergebnisse zeigen, dass das System stabil ist und sowohl URLs zuverlässig analysiert als auch Phishing-Mails korrekt generiert. Besonders hervorzuheben sind die schnelle Verarbeitung der URLs und die Genauigkeit des Modells. Weitere Tests könnten sich darauf konzentrieren, wie das Tool mit einer größeren Anzahl an Daten umgeht und ob es unter Last stabil bleibt.
