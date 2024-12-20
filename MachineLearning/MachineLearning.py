@@ -36,7 +36,7 @@ y = data["is_phishing"]
 # Trainings- und Testdaten splitten
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# 5. Modell speichern und laden
+#  Modell speichern und laden
 if os.path.exists(model_path):
     # Modell laden, falls es bereits gespeichert ist
     model = joblib.load(model_path)

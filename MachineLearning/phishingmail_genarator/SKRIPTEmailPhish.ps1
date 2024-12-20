@@ -1,29 +1,23 @@
-﻿# SMTP-Server-Informationen
-$smtpServer = "smtp.gmail.com"  # Ersetze dies, falls du einen anderen Provider nutzt
+﻿
+$smtpServer = "smtp.gmail.com"  # Für den gmail
 
-# Relativer Pfad zur Datei, basierend auf dem Skriptverzeichnis
+# Relativer Pfad zur Datei
 $messageFilePath = Join-Path -Path $PSScriptRoot -ChildPath "phishing_email.txt"
 Write-Host "Die des Absender muss den Provider Gmail haben."
 
 while ($true) {
-    # Prompt the user for their email address
     $userEmail = Read-Host -Prompt "Enter your email address"
 
-    # Prompt the user for the recipient's email address
     $recipientEmail = Read-Host -Prompt "Enter the recipient's email address"
 
-    # Prompt the user for their Gmail password securely
     $password = Read-Host -Prompt "Enter your Gmail password" -AsSecureString
 
-    # Inhalt der Phishing-Mail aus der Datei lesen
     if (Test-Path $messageFilePath) {
         $messageBody = Get-Content -Path $messageFilePath | Out-String
     } else {
         Write-Output "Die Datei $messageFilePath wurde nicht gefunden."
         break
     }
-
-
 
     # E-Mail Nachricht erstellen
     $message = New-Object system.net.mail.mailmessage

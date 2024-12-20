@@ -1,6 +1,6 @@
 import random
 
-# Dummy-Link (dies ist nur eine Übung, keine echte URL)
+# Dummy-Link (keine echte URL)
 dummy_link = "http://example.com/fake-payment"
 
 # Nachricht für die Phishing-Mail
